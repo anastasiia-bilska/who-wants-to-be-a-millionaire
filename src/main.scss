@@ -1,0 +1,12 @@
+@import './assets/sassStyles/reset';
+@import './assets/sassStyles/typography';
+@import './assets/sassStyles/blocks/container';
+@import './assets/sassStyles/mixins';
+@import './assets/sassStyles/colors';
+@import './assets/sassStyles/blocks/page';
+
+:root {
+  height: 100dvh;
+  color: $color__text;
+  font-family: 'Poppins', sans-serif;
+}

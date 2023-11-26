@@ -1,0 +1,41 @@
+@import '../../assets/sassStyles/colors';
+@import '../../assets/sassStyles/placeholders';
+
+.homepage {
+  display: flex;
+  height: 100dvh;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 60px 20px;
+
+    border-radius: 8px;
+    background-color: $color__main;
+    box-shadow: $box-shadow;
+  }
+
+  &__img {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  &__action {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 145%;
+  }
+
+  &__button {
+    @extend %button;
+  }
+}
